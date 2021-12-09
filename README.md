@@ -1,6 +1,6 @@
 # LinkedIn-Automated-Connection-Chrome-Extension\
 
-This is a Google Chrome Extension based on JSON, JavaScript and Basic HTML and CSS.
+This is a Google Chrome Extension based on JavaScript and Basic HTML and CSS.
 
 To use this extension you have to follow few steps given below :
 
@@ -8,3 +8,4 @@ To use this extension you have to follow few steps given below :
 2. Open LinkedIn.com on your Google Chrome browser.
 3. Then search for the person whom you want send connection request.
 4. Then click on that extension on extensions icon situated at top right corner of your Google Chrome.
+5. Click on connect button and it will automatically send connection request.
