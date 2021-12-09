@@ -1,0 +1,89 @@
+
+body{
+    font-family: 'Sansita', sans-serif;
+    text-align: center;
+    background-color: #011627;
+    /* border: 50px solid cyan;
+    border-top: 0px; */
+    color: #fdfffc;
+    margin: 0px;
+  }
+  
+  p{
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  #myButton{
+    background-color: #ff9f1c;
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    margin-top: 15px;
+    font-size: 1em;
+  }
+  
+  form{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  input{
+    width: 300px;
+  }
+  
+  
+  
+  .cl{
+    margin: auto;
+  }
+  
+  td{
+    height: 300px;
+    width: 150px;
+    border: 10px solid #011627;
+  }
+
+  
+  #countdown {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+  }
+  
+  #countdown-number {
+    color: red;
+    display: inline-block;
+    line-height: 400px;
+  }
+  
+  svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    transform: rotateY(-180deg) rotateZ(-90deg);
+  }
+  
+  svg circle {
+    stroke-dasharray: 113px;
+    stroke-dashoffset: 0px;
+    stroke-linecap: round;
+    stroke-width: 2px;
+    stroke: white;
+    fill: none;
+    animation: countdown 10s linear infinite forwards;
+  }
+  
+  @keyframes countdown {
+    from {
+      stroke-dashoffset: 0px;
+    }
+    to {
+      stroke-dashoffset: 113px;
+    }
+  }
